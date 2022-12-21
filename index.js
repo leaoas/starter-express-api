@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, 'static')));
 app.use(bodyParser())
 
 app.all('/api/*', (req, res) => {
-    console.log("Just got a request!")
+    console.log("Just got a request: " + req.path)
     console.log("req.body = " + req.body)
     res.send(200, 'OK')
 })
