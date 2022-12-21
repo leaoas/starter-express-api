@@ -1,8 +1,9 @@
 const express = require('express')
 const app = express()
 
-var path = require('path');
+var path = require('path')
 var bodyParser = require('body-parser')
+var util = require('util')
 
 app.use(express.static(path.join(__dirname, 'static')));
 app.use(bodyParser.text())
