@@ -15,7 +15,8 @@
     "execute": {
       "inArguments": [],
       "outArguments": [],
-      "url": "https://thoughtful-lime-scorpion.cyclic.app/api/execute"
+      "url": "https://thoughtful-lime-scorpion.cyclic.app/api/execute",
+      "useJwt": true
     }
   },
   "configurationArguments": {
