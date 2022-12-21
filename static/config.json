@@ -1,1 +1,45 @@
-
+{
+  "workflowApiVersion": "1.1",
+  "metaData": {
+    "icon": "images/icon.png",
+    "category": "message"
+  },
+  "type": "REST",
+  "lang": {
+    "en-US": {
+      "name": "Test Custom Activity (v1.1)",
+      "description": "An example custom activity."
+    }
+  },
+  "arguments": {
+    "execute": {
+      "inArguments": [],
+      "outArguments": [],
+      "url": "https://thoughtful-lime-scorpion.cyclic.app/api/execute"
+    }
+  },
+  "configurationArguments": {
+    "publish": {
+      "url": "https://thoughtful-lime-scorpion.cyclic.app/api/publish"
+    },
+    "validate": {
+      "url": "https://thoughtful-lime-scorpion.cyclic.app/api/validate"
+    },
+  },
+  "wizardSteps": [],
+  "userInterfaces": {
+    "configModal": {
+      "height": 200,
+      "width": 300,
+      "fullscreen": true
+    }
+  },
+  "schema": {
+    "arguments": {
+      "execute": {
+        "inArguments": [],
+        "outArguments": []
+      }
+    }
+  }
+}
