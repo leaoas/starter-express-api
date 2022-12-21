@@ -25,7 +25,7 @@
     },
     "validate": {
       "url": "https://thoughtful-lime-scorpion.cyclic.app/api/validate"
-    },
+    }
   },
   "wizardSteps": [
       { "label": "Step 1", "key": "step1" },
