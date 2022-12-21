@@ -19,6 +19,7 @@
     }
   },
   "configurationArguments": {
+    "applicationExtensionKey": "4fea0a11-3ef2-437d-af35-f2064b9e785d",
     "publish": {
       "url": "https://thoughtful-lime-scorpion.cyclic.app/api/publish"
     },
