@@ -9,7 +9,7 @@ app.use(bodyParser.text())
 
 app.all('/api/*', (req, res) => {
     console.log("Just got a request: " + req.path)
-    console.log(req.body)
+    console.log(util.inspect(req.body))
     res.status(200).send('OK')
 })
 
