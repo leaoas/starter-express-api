@@ -16,16 +16,22 @@
       "inArguments": [],
       "outArguments": [],
       "url": "https://thoughtful-lime-scorpion.cyclic.app/api/execute",
+      "verb": "POST",
+      "format": "json",
       "useJwt": true
     }
   },
   "configurationArguments": {
     "applicationExtensionKey": "4fea0a11-3ef2-437d-af35-f2064b9e785d",
     "publish": {
-      "url": "https://thoughtful-lime-scorpion.cyclic.app/api/publish"
+      "url": "https://thoughtful-lime-scorpion.cyclic.app/api/publish",
+      "verb": "POST",
+      "useJwt": true
     },
     "validate": {
-      "url": "https://thoughtful-lime-scorpion.cyclic.app/api/validate"
+      "url": "https://thoughtful-lime-scorpion.cyclic.app/api/validate",
+      "verb": "POST",
+      "useJwt": true
     }
   },
   "wizardSteps": [
