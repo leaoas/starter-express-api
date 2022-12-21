@@ -52,5 +52,5 @@ function configJson(req) {
             }
           }
         }
-    }
+    };
 }
