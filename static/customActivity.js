@@ -3,7 +3,7 @@ define(["postmonger"], function (Postmonger) {
 
   var connection = new Postmonger.Session();
   var payload = {};
-  var lastStepEnabled = false;
+
   var steps = [
     // initialize to the same value as what's set in config.json for consistency
     { label: "Configure Activity", key: "step1" },
@@ -64,7 +64,6 @@ define(["postmonger"], function (Postmonger) {
 
     // If there is no message selected, disable the next button
     if (!message) {
-      showStep(null, 1);
       connection.trigger("updateButton", { button: "next", enabled: false });
     }
   }
