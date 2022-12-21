@@ -2,8 +2,10 @@ const express = require('express')
 const app = express()
 
 var path = require('path');
+var bodyParser = require('body-parser')
 
 app.use(express.static(path.join(__dirname, 'static')));
+app.use(bodyParser())
 
 app.all('/api/*', (req, res) => {
     console.log("Just got a request!")
