@@ -16,6 +16,7 @@
       "inArguments": [],
       "outArguments": [],
       "url": "https://thoughtful-lime-scorpion.cyclic.app/api/execute",
+      "headers": "{\"X-Santander-Client-ID\":\"1234567890\"}"
       "verb": "POST",
       "format": "json",
       "useJwt": true
