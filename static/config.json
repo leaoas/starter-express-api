@@ -16,7 +16,7 @@
       "inArguments": [],
       "outArguments": [],
       "url": "https://thoughtful-lime-scorpion.cyclic.app/api/execute",
-      "headers": "{\"X-Santander-Client-ID\":\"1234567890\"}"
+      "headers": "{\"X-Santander-Client-ID\":\"1234567890\"}",
       "verb": "POST",
       "format": "json",
       "useJwt": true
@@ -26,11 +26,13 @@
     "applicationExtensionKey": "4fea0a11-3ef2-437d-af35-f2064b9e785d",
     "publish": {
       "url": "https://thoughtful-lime-scorpion.cyclic.app/api/publish",
+      "headers": "{\"X-Santander-Client-ID\":\"1234567890\"}",
       "verb": "POST",
       "useJwt": true
     },
     "validate": {
       "url": "https://thoughtful-lime-scorpion.cyclic.app/api/validate",
+      "headers": "{\"X-Santander-Client-ID\":\"1234567890\"}",
       "verb": "POST",
       "useJwt": true
     }
